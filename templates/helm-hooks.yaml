@@ -13,4 +13,4 @@ spec:
   source:
     path: helm-hooks
     repoURL: https://github.com/argoproj/argocd-example-apps
-    targetRevision: {{- .Values.spec.source.targetRevision -}}
+    targetRevision: HEAD
